@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag-&-Image-Extractor</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="container">
+  <h1>Tag-&-Image-Extractor</h1>
+
+  <div class="tag-selector">
+    <h2>Zu extrahierende Tags auswählen:</h2>
+    <div class="checkbox-container">
+      <div class="checkbox-item">
+        <input type="checkbox" id="h1" value="h1" checked>
+        <label for="h1">h1</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="h2" value="h2" checked>
+        <label for="h2">h2</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="h3" value="h3" checked>
+        <label for="h3">h3</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="h4" value="h4" checked>
+        <label for="h4">h4</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="h5" value="h5" checked>
+        <label for="h5">h5</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="p" value="p" checked>
+        <label for="p">p</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="span" value="span" checked>
+        <label for="span">span</label>
+      </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="img" value="img" checked>
+        <label for="img">img</label>
+      </div>
+    </div>
+  </div>
+
+  <button id="extract-button" class="extract-button">Elemente extrahieren</button>
+
+  <div id="status" class="status"></div>
+  <div id="loading" class="loading hidden">
+    <div class="spinner"></div>
+    <p>Extrahiere Elemente...</p>
+  </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
