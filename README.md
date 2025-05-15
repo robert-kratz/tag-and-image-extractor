@@ -86,8 +86,3 @@ Robert Julian Kratz
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or create issues for bugs and feature requests.
-
-## Acknowledgments
-
-- Icons created with [Tool Name]
-- Thanks to [Name] for testing and feedback
